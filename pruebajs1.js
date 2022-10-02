@@ -4,7 +4,6 @@ var opcion1 = 1;
 var opcion2 = 2; /*intro button en html*/
 
 
-while(opcion1){
     var num1 = prompt("Di un número:");
     var num2 = prompt("Di otro número:");
 
@@ -31,13 +30,11 @@ while(opcion1){
 }*/
 
 
-while(opcion2){
-
     /* una funcion que pida una palabra y compruebe las letras, hasta dar si primera = a || ultima = a*/
 
     
     var palabra = prompt("Di una palabra");
-    var letra = "a";
+    const letra = "a";
     
     if (letra=palabra.length) {
         alert("La ultima letra es la a");
